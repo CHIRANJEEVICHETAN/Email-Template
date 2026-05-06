@@ -336,7 +336,7 @@ function App() {
                 ['Click "Copy signature" in this app', 'In the top-right of this page or in the preview toolbar. You\'ll see a confirmation toast.'],
                 ['Open Outlook on the web', 'Go to outlook.office.com and sign in with your @avyrentechnologies.com account.'],
                 ['Open Settings', 'Click the gear icon (⚙) in the top-right corner, then choose "View all Outlook settings" at the bottom of the panel.'],
-                ['Navigate to Compose and reply', 'In the Settings dialog, go to Mail → Compose and reply.'],
+                ['Navigate to Signatures', 'In the Settings dialog, go to Account → Signatures, then add your signature.'],
                 ['Create a new signature', 'Under "Email signature", click + New signature. Name it "Avyren — Default".'],
                 ['Paste the signature', 'Click inside the editor and press Ctrl+V (Cmd+V on Mac). The full signature — logo, banner, and disclaimer — will paste in.'],
                 ['Set as default for new and reply emails', 'Under "Select default signatures", choose "Avyren — Default" for both "For new messages" and "For replies/forwards".'],
@@ -345,7 +345,7 @@ function App() {
               {setupTab === 'outlook-desktop' && <SetupSteps steps={[
                 ['Click "Copy signature" in this app', 'You\'ll see a confirmation toast.'],
                 ['Open Outlook desktop', 'Launch Outlook for Windows or Mac and sign in.'],
-                ['Open Signatures', 'Windows: File → Options → Mail → Signatures. Mac: Outlook → Settings → Signatures.'],
+                ['Navigate to Signatures', 'Go to Account → Signatures, then add your signature.'],
                 ['Create a new signature', 'Click New, name it "Avyren — Default".'],
                 ['Paste into the editor', 'Click inside the signature editor and press Ctrl+V (Cmd+V on Mac). If formatting looks off, use the Download .htm option, open the file in a browser, select all (Ctrl+A), copy, and paste again — this preserves table formatting better.'],
                 ['Set defaults', 'On the right, set "Avyren — Default" for both "New messages" and "Replies/forwards".'],
